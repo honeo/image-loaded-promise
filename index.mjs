@@ -197,5 +197,4 @@ function watchAttributeP(element, attrName, callback){
 	});
 }
 
-export awaitImageLoaded;
 export default awaitImageLoaded;

@@ -15,6 +15,10 @@ $ npm i image-loaded-promise
 ```js
 import imageLoadedPromise from 'image-loaded-promise';
 
+// or CDN, Dynamic import
+const {default: Mod} = await import('https://rawgit.com/honeo/image-loaded-promise/master/image-loaded.min.mjs');
+
+
 
 // img.srcを監視
 await imageLoadedPromise(img);
