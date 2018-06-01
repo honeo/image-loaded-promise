@@ -16,13 +16,13 @@ $ npm i image-loaded-promise
 import imageLoadedPromise from 'image-loaded-promise';
 
 
-// img.src
+// img.srcを監視
 await imageLoadedPromise(img);
 
-// backgroundImage
+// background-imageを監視
 await imageLoadedPromise(div);
 
-// .png画像がURLに設定されるまで待つ
+// PNG画像がURLに設定されるまで待ってから監視
 await imageLoadedPromise(img, /\.png$/);
 ```
 
@@ -37,10 +37,10 @@ await imageLoadedPromise(img, /\.png$/);
 * 引数2に正規表現があるとき
 	- 要素にそれとmatchする画像URLが設定されるまで待機する。
 
-* 既に画像読込が終了しているとき
+* 既に要素の画像読込が終了しているとき
 	- 即座に解決する。
 
-* src属性やbackground-Imageが未設定なとき
+* 要素にsrc属性やbackground-Imageが未設定なとき
 	- 要素に画像URLが設定されるまで待機する。
 
 
