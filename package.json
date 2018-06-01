@@ -1,0 +1,34 @@
+{
+  "name": "image-loaded-promise",
+  "version": "1.0.0",
+  "description": "要素の画像読込みを待つぞ",
+  "main": "index.mjs",
+  "author": "honeo",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeo/image-loaded-promise.git"
+  },
+  "keywords": [
+    "element",
+    "image",
+    "src",
+    "load",
+    "loaded",
+    "background-image",
+    "promise",
+    "lazyload"
+  ],
+  "bugs": {
+    "url": "https://github.com/honeo/image-loaded-promise/issues"
+  },
+  "homepage": "https://github.com/honeo/image-loaded-promise#readme",
+  "devDependencies": {
+    "chokidar": "^2.0.3",
+    "uglify-es": "^3.3.9"
+  }
+}
