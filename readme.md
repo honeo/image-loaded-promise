@@ -16,7 +16,7 @@ $ npm i image-loaded-promise
 import imageLoadedPromise from 'image-loaded-promise';
 
 // or CDN, Dynamic import
-const {default: Mod} = await import('https://rawgit.com/honeo/image-loaded-promise/master/image-loaded.min.mjs');
+const {default: Mod} = await import('https://cdn.rawgit.com/honeo/image-loaded-promise/master/image-loaded.min.mjs');
 
 
 
